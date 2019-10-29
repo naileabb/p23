@@ -25,77 +25,80 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
-                      <Component id="lblTitulo" min="-2" pref="309" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="146" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="lblTitulo" min="-2" pref="309" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="txtBase" min="-2" pref="63" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtAltura" min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblCuadrado" min="-2" pref="204" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="txtLado" min="-2" pref="52" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="lblAreac" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="lblTriangulo" min="-2" pref="217" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="btnTriangulo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                      <Component id="lblAreat" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                       <Component id="btnCuadro" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="220" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="txtRadio" min="-2" pref="53" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="lblAreaci" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblCirculo" min="-2" pref="220" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                  <Component id="btnTriangulo" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                  <Component id="lblCuadrado" min="-2" pref="104" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="txtLado" min="-2" pref="52" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="lblAreac" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="txtBase" min="-2" pref="63" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="txtAltura" max="32767" attributes="0"/>
-                          </Group>
-                          <Component id="lblTriangulo" min="-2" pref="128" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="lblCirculo" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="btnRombo" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="lblArear" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                              <Component id="btnCirculo" min="-2" max="-2" attributes="0"/>
-                              <Component id="lblRombo" min="-2" pref="123" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="txtRadio" min="-2" pref="53" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                              <Component id="lblAreaci" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="txtDiagonal1" min="-2" pref="62" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="txtDiagonal2" min="-2" pref="65" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <Component id="btnCirculo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-              <Component id="lblAreat" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="txtDiagonal2" min="-2" pref="65" max="-2" attributes="0"/>
+                          <Component id="txtDiagonal1" min="-2" pref="62" max="-2" attributes="0"/>
+                          <Component id="btnRombo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblArear" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="lblRombo" min="-2" pref="212" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -106,52 +109,49 @@
               <Component id="lblTitulo" min="-2" pref="28" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="lblCirculo" pref="105" max="32767" attributes="0"/>
+                  <Component id="lblCirculo" max="32767" attributes="0"/>
                   <Component id="lblCuadrado" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtRadio" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblAreaci" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnCirculo" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="lblRombo" min="-2" pref="106" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtDiagonal1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtDiagonal2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnRombo" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="lblArear" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtLado" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblAreac" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnCuadro" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtRadio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAreaci" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtLado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAreac" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnCirculo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCuadro" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
                       <Component id="lblTriangulo" min="-2" pref="130" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtAltura" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDiagonal1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtBase" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtAltura" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnTriangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnRombo" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnTriangulo" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblAreat" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblRombo" min="-2" pref="328" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+                      <Component id="txtDiagonal2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblArear" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <Component id="lblAreat" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -167,30 +167,36 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblCuadrado">
       <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagenes/images.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-          <Color id="Default Cursor"/>
+          <Color id="Cursor Por defecto"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblTriangulo">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagenes/circulo.png"/>
+          <Image iconType="3" name="/imagenes/triangulo.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel2"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblCirculo">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagenes/circulo.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="jLabel3"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRombo">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagenes/rombo.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="jLabel4"/>
       </Properties>
     </Component>
@@ -211,10 +217,13 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="calcular area"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTrianguloActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblAreat">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="area"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnCuadro">
@@ -227,7 +236,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblAreac">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel2"/>
+        <Property name="text" type="java.lang.String" value="area"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnCirculo">
@@ -237,7 +246,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblAreaci">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel3"/>
+        <Property name="text" type="java.lang.String" value="area"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtDiagonal2">
@@ -249,7 +258,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblArear">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel4"/>
+        <Property name="text" type="java.lang.String" value="area"/>
       </Properties>
     </Component>
   </SubComponents>
