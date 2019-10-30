@@ -93,10 +93,20 @@ public class inicio extends javax.swing.JFrame {
         lblAreac.setText("area");
 
         btnCirculo.setText("calcular area");
+        btnCirculo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCirculoActionPerformed(evt);
+            }
+        });
 
         lblAreaci.setText("area");
 
         btnRombo.setText("calcular area");
+        btnRombo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRomboActionPerformed(evt);
+            }
+        });
 
         lblArear.setText("area");
 
@@ -214,7 +224,7 @@ public class inicio extends javax.swing.JFrame {
         lblAreac.setText(String.valueOf(Math.pow(lado,2)));
         txtLado.setText(" ");
        } catch (NumberFormatException ex) {
-          JOptionPane.showMessageDialog(null,"erroe ingrese un valor");
+          JOptionPane.showMessageDialog(null,"erroer ingrese un valor");
           System.out.println(ex.toString());
        }    
     }//GEN-LAST:event_btnCuadroActionPerformed
@@ -227,12 +237,38 @@ public class inicio extends javax.swing.JFrame {
     try{
         double base= Double.parseDouble(txtBase.getText());
         double altura= Double.parseDouble(txtAltura.getText());
-        lblAreat.setText(String.valueOf(Math.pow(base * altura/2)));
+        lblAreat.setText(String.valueOf(base * altura/2));
+        txtBase.setText("");
+        txtAltura.setText("");
        } catch (NumberFormatException ex) {
-          JOptionPane.showMessageDialog(null,"erroe ingrese un valor");
+          JOptionPane.showMessageDialog(null,"error ingrese un valor");
           System.out.println(ex.toString());
        }    
     }//GEN-LAST:event_btnTrianguloActionPerformed
+
+    private void btnCirculoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCirculoActionPerformed
+        try{
+        double radio= Double.parseDouble(txtRadio.getText());
+        lblAreaci.setText(String.valueOf(Math.pow(radio,2)*3.1416));
+        txtRadio.setText(" ");
+       } catch (NumberFormatException ex) {
+          JOptionPane.showMessageDialog(null,"error ingrese un valor");
+          System.out.println(ex.toString());
+       }  
+    }//GEN-LAST:event_btnCirculoActionPerformed
+
+    private void btnRomboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRomboActionPerformed
+        try{
+        double d1= Double.parseDouble(txtDiagonal1.getText());
+        double d2= Double.parseDouble(txtDiagonal2.getText());
+        lblArear.setText(String.valueOf(d2 * d1));
+        txtDiagonal1.setText("");
+        txtDiagonal2.setText("");
+       } catch (NumberFormatException ex) {
+          JOptionPane.showMessageDialog(null,"error ingrese un valor");
+          System.out.println(ex.toString());
+       }    
+    }//GEN-LAST:event_btnRomboActionPerformed
 
     /**
      * @param args the command line arguments
